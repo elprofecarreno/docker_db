@@ -11,3 +11,7 @@ docker build -t mysql-division-db:1.0.0 .
 ```shell
 docker run -d -p 9090:3306 --name mysql-division-container  mysql-division-db:1.0.0
 ```
+
+## VIDEOS.
+
+[Docker MySQL Container](https://youtu.be/W2xWEt_r7nw)
