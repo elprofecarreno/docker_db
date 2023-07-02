@@ -2,6 +2,10 @@
 
 Dockerfile for create MICROSOFT SQL SERVER 2022 .
 
+### ADD SCRIPT FOR EXECUTION IN DATABASE
+
+For execution scripts when init server, add your file in scripts folder. Inside folder exist example scripts 01-create-db.sql and 02-schema.sql.
+
 ### CREATE IMAGE
 
 For create image from Dockerfile, executing following command:
