@@ -10,11 +10,11 @@ Project docker image with database for application development.
 [Docker Install](https://youtu.be/W2xWEt_r7nw)
 
 
-### MSSQL DATABASE
+### MICROSOFT SQL SERVER DATABASE
 
 [Documentation](./mssql_container/README.md)
 
 
-### MYSQL DATABASE
+### MYSQL SERVER DATABASE
 
 [Documentation](./mysql_container/README.md)
