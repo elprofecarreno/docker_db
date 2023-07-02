@@ -6,13 +6,15 @@ Dockerfile for create MYSQL SERVER 8.0.
 
 For execution scripts when init server, add your file in scripts folder. Inside folder exist example scripts 01-create-db.sql and 02-insert_data.sql.
 
-## CREATE IMAGE
+### CREATE IMAGE
 
 For create image from Dockerfile, executing following command:
 
 ```shell
 docker build -t mysql-division-db:1.0.0 .
 ```
+
+![docker-mysql-images](../docs/img/docker-mysql-images.gif)
 
 **NOTE:**
 
@@ -24,10 +26,10 @@ docker build -t mysql-division-db:1.0.0 .
 For create container from image, executing following command:
 
 ```shell
-docker run -d -p 9090:3306 --env-file .env --name mysql-division-container  mysql-division-db:1.0.0
+docker run -d -p 9090:3306 --name mysql-division-container  mysql-division-db:1.0.0
 ```
 
-![docker-mssql-run.gif](../docs/img/docker-mssql-run.gif)
+![docker-mysql-run](../docs/img/docker-mysql-run.gif)
 
 **NOTE:**
 
@@ -42,6 +44,7 @@ For stop container, executing following command:
 docker stop mysql-division-container
 ```
 
+![docker-mysql-stop](../docs/img/docker-mysql-stop.gif)
 
 ### REMOVE CONTAINER
 
@@ -50,6 +53,8 @@ For remove container, executing following command:
 ```shell
 docker rm mysql-division-container
 ```
+
+![docker-mysql-rm](../docs/img/docker-mysql-rm.gif)
 
 **NOTE:**
 
@@ -64,6 +69,7 @@ For view logs, executing following command:
 docker logs -f mysql-division-container
 ```
 
+![docker-mysql-logs](../docs/img/docker-mysql-logs.gif)
 
 ## VIDEOS.
 
