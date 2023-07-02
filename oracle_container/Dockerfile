@@ -1,0 +1,9 @@
+# ORACLE DATABASE DOCKER IMAGE
+FROM gvenzl/oracle-xe:11
+# DEFINED LENGUAGE OS
+ENV LANG en_US.UTF-8
+ENV LANGUAGE en_US:en
+# ORACLE DEFINITION
+env ORACLE_PASSWORD system
+# COPY SCRIPT SQL FILES
+COPY ./scripts/ /docker-entrypoint-initdb.d/

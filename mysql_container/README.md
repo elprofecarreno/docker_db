@@ -33,7 +33,7 @@ docker run -d -p 9090:3306 --name mysql-division-container  mysql-division-db:1.
 
 **NOTE:**
 
-- 9090:3306 the first number is port publicate for local net and second number is default port database MICROSOFT SQL SERVER.
+- 9090:3306 the first number is port publicate for local net and second number is default port database MYSQL SERVER.
 - mysql-division-container is the container name.
 
 ### STOP CONTAINER
@@ -70,6 +70,15 @@ docker logs -f mysql-division-container
 ```
 
 ![docker-mysql-logs](../docs/img/docker-mysql-logs.gif)
+
+### CONNECTION DATABASE
+
+```
+USER: root
+PASSWORD: 1234567890 # PASSWORD FOR USER root IN MYSQL_ROOT_PASSWORD ENV
+PORT: 9090
+DATABASE: division_geografica # 
+```
 
 ## VIDEOS.
 

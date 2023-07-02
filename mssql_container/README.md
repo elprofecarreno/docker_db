@@ -92,3 +92,12 @@ docker logs -f mssql-container
 
 ![docker-mssql-logs.gif](../docs/img/docker-mssql-logs.gif)
 
+
+### CONNECTION DATABASE
+
+```
+USER: SA
+PASSWORD: S4PasSW0rD2022 # PASSWORD FOR USER SA IN MSSQL_SA_PASSWORD ENV
+PORT: 1433
+DATABASE: division_geografica # DEFAULT MASTER
+```
