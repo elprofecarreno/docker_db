@@ -10,7 +10,7 @@ Project docker image with database for application development.
 [Docker Install](https://youtu.be/W2xWEt_r7nw)
 
 
-### MICROSOFT SQL DATABASE SERVER
+### MICROSOFT SQL SERVER DATABASE
 
 [Documentation](./mssql_container/README.md)
 
