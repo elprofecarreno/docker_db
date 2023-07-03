@@ -3,7 +3,7 @@
 Project docker image with database for application development.
 
 
-## VIDEO INSTALACIÓN DOCKER
+## VIDEO DOCKER INSTALL
 
 **WINDOWS**
 
