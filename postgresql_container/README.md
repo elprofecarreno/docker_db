@@ -29,7 +29,7 @@ docker run -d -p 9098:5432 --name postgres-container  postgres-db:1.0.0
 
 **NOTE:**
 
-- 9098:5431 the first number is port publicate for local net and second number is default port database POSTGRESQL DATABASE SERVER.
+- 9098:5432 the first number is port publicate for local net and second number is default port database POSTGRESQL DATABASE SERVER.
 - postgres-container is the container name.
 
 
